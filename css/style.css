@@ -900,3 +900,48 @@ a[data-type='lightbox']:hover img {
   }
 }
 /*Core variables and mixins*/
+/* ================= FOOTER SIMPLIFIÉ ================= */
+
+.footer_top {
+    margin-bottom: 20px;
+}
+
+.footer_block {
+    margin-bottom: 20px;
+}
+
+.footer_title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer_text {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer_text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_text a:hover {
+    text-decoration: underline;
+}
+
+.footer_bottom {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+    #footer .grid_6 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
